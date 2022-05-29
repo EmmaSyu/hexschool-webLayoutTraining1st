@@ -476,6 +476,10 @@ body {
   line-height: 24px;
 }
 
+.footer .contact-info a:hover {
+  text-decoration: underline;
+}
+
 .footer .contact-link {
   margin: 30px 0px;
 }
@@ -522,4 +526,4 @@ body {
   color: #3F5D45;
   margin-bottom: 30px;
 }
-/*# sourceMappingURL=css.css.map */
+/*# sourceMappingURL=style.css.map */
