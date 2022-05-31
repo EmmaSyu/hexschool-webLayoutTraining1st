@@ -1,0 +1,282 @@
+@import './variable';
+@import './reset';
+@import './base';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Noto+Serif+TC:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+    // outline: 1px solid #000;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+
+    header {
+        margin-top: 30px;
+
+        a {
+            padding: 8px;
+            margin: 0px 20px;
+            color: $primary-dark-green;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .shopping_cart {
+            margin-left: 39px;
+            margin-right: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    .banner {
+        margin: 36px auto;
+        width: 100%;
+    }
+    section {
+        padding-top: 24px;
+
+        .side_menu {
+            width: 300px;
+            font-size: $fs-main;
+            text-align: center;
+            line-height: 40px;
+
+            h2 {
+                background-color: $primary-dark-green;
+                color: #fff;
+                padding: 12.5px 0px;
+            }
+            a {
+                color: $primary-dark-green;
+                padding: 12.5px 0px;
+                border: 1px solid $primary-light-green;
+                margin-top: -1px;
+
+                &:hover {
+                    background-color: $primary-light-green;
+                }
+            }
+            .active {
+                background-color: $primary-light-green;
+            }
+        }
+        .l-card {
+            width: 640px;
+        }
+
+        .card {
+            max-width: 300px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card-img {
+            position: relative;
+
+            .cover {
+                writing-mode: vertical-lr;
+                letter-spacing: 4px;
+                padding: 13px 10px;
+                background-color: $primary-dark-green;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                left: 20px;
+            }
+
+            .favorite {
+                position: absolute;
+                top: 9px;
+                right: 12px;
+                padding: 10px;
+            }
+        }
+        .info {
+            border: 1px solid $primary-light-green;
+            color: $primary-dark-green;
+            font-size: $fs-lg;
+            text-align: center;
+
+            .item-name {
+                font-family: $font-family-light;
+                font-weight: $fw-light;
+                width: 173px;
+                padding: 18px 0px;
+                border-right: 1px solid #EAF0ED;
+            }
+
+            .price {
+                width: 127px;
+                padding: 16px 0px;
+                line-height: 24px;
+            }
+        }
+        .buy {
+            font-size: $fs-main;
+            text-align: center;
+            color: $primary-dark-green;
+            background-color: $primary-light-green;
+            padding: 20.5px 0px;
+            &:hover {
+                background-color: $primary-dark-green;
+                color: #fff;
+            }
+        }
+
+        .page-link {
+            margin-top: 10px;
+        }
+
+        .go-page {
+            border: 1px solid $primary-light-green;
+            border-right: none;
+            font-family: $font-family-light;
+            font-weight: $fw-light;
+
+            a {
+                font-size: $fs-lg;
+                text-align: center;
+                color: $primary-dark-green;
+                padding: 20px 25px;
+
+                &:hover {
+                    background-color: $primary-dark-green;
+                    color: $primary-light-green;
+                    font-family: $font-family-bold;
+                    font-weight: $fw-bold;
+                }
+            }
+        }
+
+        .active {
+            background-color: $primary-dark-green;
+            font-family: $font-family-bold;
+            font-weight: $fw-bold;
+
+            a {
+                color: $primary-light-green;
+            }
+        }
+
+        .next-page {
+            border-right: 1px solid $primary-light-green;
+        }
+    }
+}
+
+.footer {
+    margin-top: 60px;
+
+    .dark-green {
+        background-color: $primary-dark-green;
+        padding: 30px 0px;
+    }
+    
+    .container-sm {
+        max-width: 780px;
+        margin: 0 auto;
+    }
+    
+    .logo-light {
+        width: 40px;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+
+    .subscription {
+        margin-top: 8px;
+        font-size: 24px;
+        line-height: 29px;
+        color: $primary-light-green;
+        font-family: $font-helvetica-neue;
+        font-weight: $fw-regular;
+    }
+
+    .input-box {
+        width: 380px;
+        background-color: $primary-light-green;
+        padding-left: 4px;
+
+        .mail-img {
+            width: 24px;
+            margin: 16px;
+        }
+
+        input[type="email"] {
+            width: 252px;
+            font-size: $fs-lg;
+            background-color: $primary-light-green;
+            color: $primary-dark-green;
+            border: none;
+            outline: medium;
+        }
+
+        button {
+            background-color: $yellow;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .light-green {
+        background-color: $primary-light-green;
+    }
+
+    .logo-link {
+        margin-top: 38.9px;
+    }
+
+    .logo {
+        max-width: 171.22px;
+    }
+
+    .contact-info {
+        font-family: $font-helvetica-neue;
+        font-weight: $fw-regular;
+        margin-top: 115.5px;
+
+        a {
+            color: $primary-dark-green;
+            line-height: 24px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+    }
+    
+    .contact-logo {
+        margin: 30px 0px;
+
+        .contact-link {
+            margin-right: 8px;
+        }
+
+        .contact-img {
+            width: 32px;
+        }
+    }
+
+    .slogan {
+        margin-top: 30px;
+        writing-mode: vertical-rl;
+        font-size: 23px;
+        letter-spacing: 6.5px;
+        line-height: 36px;
+        font-family: $font-noto-serif;
+        color: $primary-dark-green;
+    }
+
+    .copyright {
+        line-height: 19px;
+        color: $primary-dark-green;
+        margin-bottom: 30px;
+        margin-top: 18px;
+        font-family: $font-times;
+        font-weight: $fw-regular;
+    }
+}
