@@ -1,4 +1,6 @@
 
+$spacer: 4px;
+
 $primary-dark-green: #3F5D45;
 $primary-light-green: #EAF0ED;
 $yellow: #FFE180;
@@ -13,7 +15,8 @@ $fw-bold:600;
 $fw-regular:400;
 $fw-light:300;
 
-$fs-sm: 16px;
-$fs-lg: 20px;
-$fs-main: 24px;
+$fs-sm: $spacer*4;
+$fs-lg: $spacer*5;
+$fs-main: $spacer*6;
 
+$spacer: 4px;

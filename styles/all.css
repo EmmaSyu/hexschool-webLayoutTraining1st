@@ -195,6 +195,14 @@ a {
           align-items: flex-end;
 }
 
+.pt-1 {
+  padding-top: 24px;
+}
+
+.mt-2 {
+  margin-top: 30px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -205,21 +213,17 @@ a {
   margin: 0 auto;
 }
 
-.container header {
-  margin-top: 30px;
-}
-
-.container header a {
+.container .nav-link {
   padding: 8px;
   margin: 0px 20px;
   color: #3F5D45;
 }
 
-.container header a:hover {
+.container .nav-link:hover {
   text-decoration: underline;
 }
 
-.container header .shopping_cart {
+.container .shopping_cart {
   margin-left: 39px;
   margin-right: 0px;
   padding-right: 0px;
@@ -230,53 +234,49 @@ a {
   width: 100%;
 }
 
-.container section {
-  padding-top: 24px;
-}
-
-.container section .side_menu {
+.container .side_menu {
   width: 300px;
   font-size: 24px;
   text-align: center;
   line-height: 40px;
 }
 
-.container section .side_menu h2 {
+.container .side_menu h2 {
   background-color: #3F5D45;
   color: #fff;
   padding: 12.5px 0px;
 }
 
-.container section .side_menu a {
+.container .side_menu a {
   color: #3F5D45;
   padding: 12.5px 0px;
   border: 1px solid #EAF0ED;
   margin-top: -1px;
 }
 
-.container section .side_menu a:hover {
+.container .side_menu a:hover {
   background-color: #EAF0ED;
 }
 
-.container section .side_menu .active {
+.container .side_menu .active {
   background-color: #EAF0ED;
 }
 
-.container section .l-card {
+.container .l-card {
   width: 640px;
 }
 
-.container section .card {
+.container .card {
   max-width: 300px;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
-.container section .card-img {
+.container .card-img {
   position: relative;
 }
 
-.container section .card-img .cover {
+.container .card-img .cover {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
@@ -289,21 +289,21 @@ a {
   left: 20px;
 }
 
-.container section .card-img .favorite {
+.container .card-img .favorite {
   position: absolute;
   top: 9px;
   right: 12px;
   padding: 10px;
 }
 
-.container section .info {
+.container .info {
   border: 1px solid #EAF0ED;
   color: #3F5D45;
   font-size: 20px;
   text-align: center;
 }
 
-.container section .info .item-name {
+.container .info .item-name {
   font-family: PingFangTC-Light, sans-serif;
   font-weight: 300;
   width: 173px;
@@ -311,13 +311,13 @@ a {
   border-right: 1px solid #EAF0ED;
 }
 
-.container section .info .price {
+.container .info .price {
   width: 127px;
   padding: 16px 0px;
   line-height: 24px;
 }
 
-.container section .buy {
+.container .buy {
   font-size: 24px;
   text-align: center;
   color: #3F5D45;
@@ -325,47 +325,47 @@ a {
   padding: 20.5px 0px;
 }
 
-.container section .buy:hover {
+.container .buy:hover {
   background-color: #3F5D45;
   color: #fff;
 }
 
-.container section .page-link {
+.container .page-link {
   margin-top: 10px;
 }
 
-.container section .go-page {
+.container .go-page {
   border: 1px solid #EAF0ED;
   border-right: none;
   font-family: PingFangTC-Light, sans-serif;
   font-weight: 300;
 }
 
-.container section .go-page a {
+.container .go-page a {
   font-size: 20px;
   text-align: center;
   color: #3F5D45;
   padding: 20px 25px;
 }
 
-.container section .go-page a:hover {
+.container .go-page a:hover {
   background-color: #3F5D45;
   color: #EAF0ED;
   font-family: PingFangTC-Semibold, sans-serif;
   font-weight: 600;
 }
 
-.container section .active {
+.container .active {
   background-color: #3F5D45;
   font-family: PingFangTC-Semibold, sans-serif;
   font-weight: 600;
 }
 
-.container section .active a {
+.container .active a {
   color: #EAF0ED;
 }
 
-.container section .next-page {
+.container .next-page {
   border-right: 1px solid #EAF0ED;
 }
 
@@ -429,7 +429,7 @@ a {
   background-color: #EAF0ED;
 }
 
-.footer .logo-link {
+.footer .logo-link-sm {
   margin-top: 38.9px;
 }
 
@@ -443,12 +443,12 @@ a {
   margin-top: 115.5px;
 }
 
-.footer .contact-info a {
+.footer .contact-info .info-link {
   color: #3F5D45;
   line-height: 24px;
 }
 
-.footer .contact-info a:hover {
+.footer .contact-info .info-link:hover {
   text-decoration: underline;
 }
 

@@ -12,157 +12,157 @@
     max-width: 940px;
     margin: 0 auto;
 
-    header {
-        margin-top: 30px;
+    .nav-link {
+        padding: 8px;
+        margin: 0px 20px;
+        color: $primary-dark-green;
 
-        a {
-            padding: 8px;
-            margin: 0px 20px;
-            color: $primary-dark-green;
-            &:hover {
-                text-decoration: underline;
-            }
+        &:hover {
+            text-decoration: underline;
         }
-        .shopping_cart {
-            margin-left: 39px;
-            margin-right: 0px;
-            padding-right: 0px;
-        }
+    }
+
+    .shopping_cart {
+        margin-left: 39px;
+        margin-right: 0px;
+        padding-right: 0px;
     }
 
     .banner {
         margin: 36px auto;
         width: 100%;
     }
-    section {
-        padding-top: 24px;
 
-        .side_menu {
-            width: 300px;
-            font-size: $fs-main;
-            text-align: center;
-            line-height: 40px;
+    .side_menu {
+        width: 300px;
+        font-size: $fs-main;
+        text-align: center;
+        line-height: 40px;
 
-            h2 {
-                background-color: $primary-dark-green;
-                color: #fff;
-                padding: 12.5px 0px;
-            }
-            a {
-                color: $primary-dark-green;
-                padding: 12.5px 0px;
-                border: 1px solid $primary-light-green;
-                margin-top: -1px;
-
-                &:hover {
-                    background-color: $primary-light-green;
-                }
-            }
-            .active {
-                background-color: $primary-light-green;
-            }
-        }
-        .l-card {
-            width: 640px;
+        h2 {
+            background-color: $primary-dark-green;
+            color: #fff;
+            padding: 12.5px 0px;
         }
 
-        .card {
-            max-width: 300px;
-            margin-left: 20px;
-            margin-bottom: 20px;
-        }
-
-        .card-img {
-            position: relative;
-
-            .cover {
-                writing-mode: vertical-lr;
-                letter-spacing: 4px;
-                padding: 13px 10px;
-                background-color: $primary-dark-green;
-                color: #fff;
-                position: absolute;
-                top: 0;
-                left: 20px;
-            }
-
-            .favorite {
-                position: absolute;
-                top: 9px;
-                right: 12px;
-                padding: 10px;
-            }
-        }
-        .info {
+        a {
+            color: $primary-dark-green;
+            padding: 12.5px 0px;
             border: 1px solid $primary-light-green;
-            color: $primary-dark-green;
-            font-size: $fs-lg;
-            text-align: center;
+            margin-top: -1px;
 
-            .item-name {
-                font-family: $font-family-light;
-                font-weight: $fw-light;
-                width: 173px;
-                padding: 18px 0px;
-                border-right: 1px solid #EAF0ED;
-            }
-
-            .price {
-                width: 127px;
-                padding: 16px 0px;
-                line-height: 24px;
-            }
-        }
-        .buy {
-            font-size: $fs-main;
-            text-align: center;
-            color: $primary-dark-green;
-            background-color: $primary-light-green;
-            padding: 20.5px 0px;
             &:hover {
-                background-color: $primary-dark-green;
-                color: #fff;
-            }
-        }
-
-        .page-link {
-            margin-top: 10px;
-        }
-
-        .go-page {
-            border: 1px solid $primary-light-green;
-            border-right: none;
-            font-family: $font-family-light;
-            font-weight: $fw-light;
-
-            a {
-                font-size: $fs-lg;
-                text-align: center;
-                color: $primary-dark-green;
-                padding: 20px 25px;
-
-                &:hover {
-                    background-color: $primary-dark-green;
-                    color: $primary-light-green;
-                    font-family: $font-family-bold;
-                    font-weight: $fw-bold;
-                }
+                background-color: $primary-light-green;
             }
         }
 
         .active {
-            background-color: $primary-dark-green;
-            font-family: $font-family-bold;
-            font-weight: $fw-bold;
+            background-color: $primary-light-green;
+        }
+    }
+    .l-card {
+        width: 640px;
+    }
 
-            a {
+    .card {
+        max-width: 300px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card-img {
+        position: relative;
+
+        .cover {
+            writing-mode: vertical-lr;
+            letter-spacing: 4px;
+            padding: 13px 10px;
+            background-color: $primary-dark-green;
+            color: #fff;
+            position: absolute;
+            top: 0;
+            left: 20px;
+        }
+
+        .favorite {
+            position: absolute;
+            top: 9px;
+            right: 12px;
+            padding: 10px;
+        }
+    }
+
+    .info {
+        border: 1px solid $primary-light-green;
+        color: $primary-dark-green;
+        font-size: $fs-lg;
+        text-align: center;
+
+        .item-name {
+            font-family: $font-family-light;
+            font-weight: $fw-light;
+            width: 173px;
+            padding: 18px 0px;
+            border-right: 1px solid #EAF0ED;
+        }
+
+        .price {
+            width: 127px;
+            padding: 16px 0px;
+            line-height: 24px;
+        }
+    }
+
+    .buy {
+        font-size: $fs-main;
+        text-align: center;
+        color: $primary-dark-green;
+        background-color: $primary-light-green;
+        padding: 20.5px 0px;
+        
+        &:hover {
+            background-color: $primary-dark-green;
+            color: #fff;
+        }
+    }
+
+    .page-link {
+        margin-top: 10px;
+    }
+
+    .go-page {
+        border: 1px solid $primary-light-green;
+        border-right: none;
+        font-family: $font-family-light;
+        font-weight: $fw-light;
+
+        a {
+            font-size: $fs-lg;
+            text-align: center;
+            color: $primary-dark-green;
+            padding: 20px 25px;
+
+            &:hover {
+                background-color: $primary-dark-green;
                 color: $primary-light-green;
+                font-family: $font-family-bold;
+                font-weight: $fw-bold;
             }
         }
+    }
 
-        .next-page {
-            border-right: 1px solid $primary-light-green;
+    .active {
+        background-color: $primary-dark-green;
+        font-family: $font-family-bold;
+        font-weight: $fw-bold;
+
+        a {
+            color: $primary-light-green;
         }
+    }
+
+    .next-page {
+        border-right: 1px solid $primary-light-green;
     }
 }
 
@@ -225,7 +225,7 @@
         background-color: $primary-light-green;
     }
 
-    .logo-link {
+    .logo-link-sm {
         margin-top: 38.9px;
     }
 
@@ -238,7 +238,7 @@
         font-weight: $fw-regular;
         margin-top: 115.5px;
 
-        a {
+        .info-link {
             color: $primary-dark-green;
             line-height: 24px;
 

@@ -44,3 +44,11 @@ a {
 .align-items-end {
     align-items: flex-end;
 }
+
+.pt-1 {
+    padding-top: $spacer*6;
+}
+
+.mt-2 {
+    margin-top: $spacer*7.5;
+}
