@@ -404,9 +404,9 @@ a {
   padding-left: 4px;
 }
 
-.footer .input-box .mail-img {
-  width: 24px;
-  margin: 16px;
+.footer .input-box .fa-envelope {
+  color: #3F5D45;
+  padding: 30px 16px;
 }
 
 .footer .input-box input[type="email"] {

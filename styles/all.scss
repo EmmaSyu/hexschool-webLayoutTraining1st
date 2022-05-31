@@ -119,7 +119,7 @@
         color: $primary-dark-green;
         background-color: $primary-light-green;
         padding: 20.5px 0px;
-        
+
         &:hover {
             background-color: $primary-dark-green;
             color: #fff;
@@ -148,6 +148,7 @@
                 font-family: $font-family-bold;
                 font-weight: $fw-bold;
             }
+
         }
     }
 
@@ -199,9 +200,9 @@
         background-color: $primary-light-green;
         padding-left: 4px;
 
-        .mail-img {
-            width: 24px;
-            margin: 16px;
+        .fa-envelope {
+            color: $primary-dark-green;
+            padding: 30px 16px;
         }
 
         input[type="email"] {
